@@ -2,12 +2,12 @@ using System;
 using Xunit;
 using xUnitTest.Lib;
 
-namespace xUnitTest.test
+namespace xUnitTest.Test
 {
     public class UnitTestBankAccount
     {
         const int init = 100;
-         BankAccount ba = new BankAccount(init);
+        BankAccount ba = new BankAccount(init);
         public  UnitTestBankAccount()
         {
 
@@ -39,7 +39,6 @@ namespace xUnitTest.test
             Assert.Equal(1,1);
             
         }
-
         bool IsOdd(int value)
         {
             return value % 2 == 1;
