@@ -57,6 +57,9 @@ namespace xUnitTest.Test
         [Fact]
         public void DepositTest(){
             var log = new Mock<ILog>();
+            ba = new BankAccount(log.Object){Balance = 100};
+            ba.Deposit(100);
+            Assert.True(ba.Balance==200);
         }
     }
 }
