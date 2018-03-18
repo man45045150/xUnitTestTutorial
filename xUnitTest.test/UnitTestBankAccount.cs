@@ -4,11 +4,11 @@ using xUnitTest.Lib;
 
 namespace xUnitTest.test
 {
-    public class UnitTest1
+    public class UnitTestBankAccount
     {
         const int init = 100;
          BankAccount ba = new BankAccount(init);
-        public  UnitTest1()
+        public  UnitTestBankAccount()
         {
 
         }
