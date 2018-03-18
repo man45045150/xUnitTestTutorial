@@ -6,7 +6,7 @@ namespace xUnitTest.Test
 {
     public class UnitTestBankAccount
     {
-        const int init = 100;
+        const int init = 200;
         BankAccount ba = new BankAccount(init);
         public  UnitTestBankAccount()
         {

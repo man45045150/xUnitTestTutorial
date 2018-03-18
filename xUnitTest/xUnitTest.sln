@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitTest.Lib", "..\xUnitTest.Lib\xUnitTest.Lib.csproj", "{4E0F18A1-308B-4647-AE76-753856970240}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitTest.test", "..\xUnitTest.Test\xUnitTest.Test.csproj", "{033D5835-0C69-4361-88B4-E30304579415}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitTest.Test", "..\xUnitTest.Test\xUnitTest.Test.csproj", "{033D5835-0C69-4361-88B4-E30304579415}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
