@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "xUnitTest.test/1.0.0": {
+      "xUnitTest.Test/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.5.0",
           "xUnitTest.Lib": "1.0.0",
@@ -14,7 +14,7 @@
           "xunit.runner.visualstudio": "2.3.1"
         },
         "runtime": {
-          "xUnitTest.test.dll": {}
+          "xUnitTest.Test.dll": {}
         }
       },
       "Microsoft.CodeCoverage/1.0.3": {
@@ -1041,7 +1041,7 @@
     }
   },
   "libraries": {
-    "xUnitTest.test/1.0.0": {
+    "xUnitTest.Test/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

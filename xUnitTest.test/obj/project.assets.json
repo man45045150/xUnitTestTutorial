@@ -5735,11 +5735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/xUnitTest.test.csproj",
-      "projectName": "xUnitTest.test",
-      "projectPath": "/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/xUnitTest.test.csproj",
+      "projectUniqueName": "/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.Test/xUnitTest.Test.csproj",
+      "projectName": "xUnitTest.Test",
+      "projectPath": "/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.Test/xUnitTest.Test.csproj",
       "packagesPath": "/Users/aumnuayniranartkul/.nuget/packages/",
-      "outputPath": "/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/obj/",
+      "outputPath": "/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.Test/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
