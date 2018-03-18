@@ -1,4 +1,5 @@
 using System;
+using Moq;
 using Xunit;
 using xUnitTest.Lib;
 
@@ -7,10 +8,11 @@ namespace xUnitTest.Test
     public class UnitTestBankAccount
     {
         const int init = 200;
-        BankAccount ba = new BankAccount(init);
+        BankAccount ba = null;
         public  UnitTestBankAccount()
         {
-
+            ba = new BankAccount(new ConsoleLog());
+            ba.Balance = init;
         }
         [Theory]
         [InlineData(100)]
@@ -33,11 +35,10 @@ namespace xUnitTest.Test
         [Theory]
         [InlineData(3)]
         [InlineData(5)]
-        [InlineData(6)]
+        [InlineData(7)]
         public void MyFirstTheory(int value)
         {
             Assert.True(IsOdd(value));
-            Assert.Equal(1,1);
             
         }
         [Theory]
@@ -52,6 +53,10 @@ namespace xUnitTest.Test
         bool IsOdd(int value)
         {
             return value % 2 == 1;
+        }
+        [Fact]
+        public void DepositTest(){
+            var log = new Mock<ILog>();
         }
     }
 }
