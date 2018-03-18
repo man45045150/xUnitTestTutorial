@@ -1,0 +1,8 @@
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.Lib/bin/Debug/netstandard2.0/xUnitTest.Lib.deps.json
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.Lib/bin/Debug/netstandard2.0/xUnitTest.Lib.dll
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.Lib/bin/Debug/netstandard2.0/xUnitTest.Lib.pdb
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.Lib/obj/Debug/netstandard2.0/xUnitTest.Lib.csproj.CoreCompileInputs.cache
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.Lib/obj/Debug/netstandard2.0/xUnitTest.Lib.AssemblyInfoInputs.cache
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.Lib/obj/Debug/netstandard2.0/xUnitTest.Lib.AssemblyInfo.cs
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.Lib/obj/Debug/netstandard2.0/xUnitTest.Lib.dll
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.Lib/obj/Debug/netstandard2.0/xUnitTest.Lib.pdb
