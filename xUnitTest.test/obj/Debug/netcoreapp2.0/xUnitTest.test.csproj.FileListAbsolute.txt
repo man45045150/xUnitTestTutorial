@@ -11,3 +11,5 @@
 /Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/obj/Debug/netcoreapp2.0/xUnitTest.test.pdb
 /Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/bin/Debug/netcoreapp2.0/xUnitTest.Lib.dll
 /Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/bin/Debug/netcoreapp2.0/xUnitTest.Lib.pdb
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.Test/bin/Debug/netcoreapp2.0/xUnitTest.Test.runtimeconfig.json
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.Test/bin/Debug/netcoreapp2.0/xUnitTest.Test.runtimeconfig.dev.json

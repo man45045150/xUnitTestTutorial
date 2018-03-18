@@ -14,8 +14,9 @@ namespace xUnitTest.Lib
                 throw new ArgumentException("Deposit amount must be positive.",nameof(amount));
             this.Balance += amount;
         }
-        public void Withdraw(int amount){
+        public int Withdraw(int amount){
             this.Balance -= amount;
+            return this.Balance;
         }
 
     }

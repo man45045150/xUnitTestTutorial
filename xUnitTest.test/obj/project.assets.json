@@ -5721,7 +5721,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NET.Test.Sdk >= 15.5.0",
+      "Microsoft.NET.test.Sdk >= 15.5.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "xUnitTest.Lib >= 1.0.0",
       "xunit >= 2.3.1",
@@ -5771,7 +5771,7 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NET.Test.Sdk": {
+          "Microsoft.NET.test.Sdk": {
             "target": "Package",
             "version": "[15.5.0, )"
           },

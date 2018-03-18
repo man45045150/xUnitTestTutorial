@@ -16,6 +16,7 @@ namespace xUnitTest.Test
         [InlineData(100)]
         [InlineData(200)]
         [InlineData(300)]
+        [InlineData(400)]
         public void BankAccountShouldIncreaseOnPositionDeposit(int amount){
             
             ba.Deposit(amount);
@@ -39,6 +40,15 @@ namespace xUnitTest.Test
             Assert.Equal(1,1);
             
         }
+        [Theory]
+        [InlineData(100,true,100)]
+        [InlineData(50,true,150)]
+        [InlineData(200,true,0)]
+        public void TestMultipleWithdrawalScenerios(int amountToWithdraw,bool shouldSucceed,int expectedBalance){
+            var result = ba.Withdraw(amountToWithdraw); 
+            Assert.Equal((result==expectedBalance),shouldSucceed);
+        }
+
         bool IsOdd(int value)
         {
             return value % 2 == 1;
