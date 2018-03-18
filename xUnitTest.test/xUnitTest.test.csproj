@@ -13,4 +13,7 @@
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\xUnitTest.Lib\xUnitTest.Lib.csproj" />
+  </ItemGroup>
 </Project>

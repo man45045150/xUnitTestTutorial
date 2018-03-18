@@ -1,0 +1,15 @@
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/bin/Debug/netcoreapp2.0/xUnitTest.test.deps.json
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/bin/Debug/netcoreapp2.0/xUnitTest.test.runtimeconfig.json
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/bin/Debug/netcoreapp2.0/xUnitTest.test.runtimeconfig.dev.json
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/bin/Debug/netcoreapp2.0/xUnitTest.test.dll
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/bin/Debug/netcoreapp2.0/xUnitTest.test.pdb
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/obj/Debug/netcoreapp2.0/xUnitTest.test.csproj.CoreCompileInputs.cache
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/obj/Debug/netcoreapp2.0/xUnitTest.test.AssemblyInfoInputs.cache
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/obj/Debug/netcoreapp2.0/xUnitTest.test.AssemblyInfo.cs
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/obj/Debug/netcoreapp2.0/xUnitTest.test.dll
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/obj/Debug/netcoreapp2.0/xUnitTest.test.pdb
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/bin/Debug/netcoreapp2.0/xUnitTest.Lib.dll
+/Users/aumnuayniranartkul/Desktop/dotnet_core/xUnitTestTutorial/xUnitTest.test/bin/Debug/netcoreapp2.0/xUnitTest.Lib.pdb
