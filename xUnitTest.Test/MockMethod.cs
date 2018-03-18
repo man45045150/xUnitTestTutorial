@@ -84,5 +84,51 @@ namespace xUnitTest.Test
 
             );
         }
+        [Fact]
+        public void PropertyMock(){
+            var mock = new Mock<IFoo>();
+             mock.Setup(foo => foo.Name)
+                .Returns("bar");
+            mock.Object.Name = "will not be assigned";
+            Assert.Equal(mock.Object.Name ,"bar");
+
+            bool setterCalled = false;
+            mock.SetupSet(foo =>
+            {
+                foo.Name = It.IsAny<string>();
+
+            })
+            .Callback<string>(value => {
+                setterCalled = true;
+            });
+            mock.Object.Name="def";
+
+            mock.VerifySet(foo => {
+                foo.Name = "def";
+            },Times.AtLeastOnce());
+
+        }
+        [Fact]
+        public void TrackingValue(){
+            var mock = new Mock<IFoo>();
+            mock.SetupAllProperties();
+            IFoo foo = mock.Object;
+            foo.Name = "abc";
+            Assert.Equal(foo.Name,"abc");
+
+            foo.Name = "abcd";
+            foo.SomeOtherProperty = 123;
+            Assert.Equal(foo.SomeOtherProperty,123);
+            
+        }
+        public void TestMockBehavior(){
+            var mockRepository = new MockRepository(MockBehavior.Strict){
+                DefaultValue = DefaultValue.Mock
+            };
+            var fooMock = mockRepository.Create<IFoo>();
+            var otherMock = mockRepository.Create<IBaz>(MockBehavior.Loose);
+
+            mockRepository.Verify();
+        }
     }
 }
